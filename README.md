@@ -21,20 +21,20 @@ Students will learn how to create a **horizontal navigation menu** using the `di
 - Find to the `/* Header Border */` comment.
 - Above the `/* Header Border */` comment, add a comment `/* Notification Bar */` to your CSS file.
 - Underneath the `/* Notification Bar */` comment, create a new rule set that selects the `.notification-bar` that has the following declarations:
-    - Set the background color to yellow.
-    - Set the text color to dark gray.
-    - Align the text to the center.
-    - Add 10 pixels of padding around the text.
-    - Make the text bold.
-    - Keep the notification bar fixed at the top of the page.
-    - Set the width to 100% to stretch across the page.
-    - Position the bar at the top of the page.
-    - Align the bar to the left side of the screen.
-    - Make the notification bar invisible when the page loads.
-    - Add a shadow effect to the bar.
+  - Set the background color to yellow.
+  - Set the text color to dark gray.
+  - Align the text to the center.
+  - Add 10 pixels of padding around the text.
+  - Make the text bold.
+  - Set the width to 100% to stretch across the page.
+  - Make the notification bar invisible when the page loads.
+  - Add the remaining declaration to the `.notification-bar` rule set
 
 ```
-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 ```
 - Create another rule set that selects the `.notification-bar` and class of `.active` that has the following declarations:
     - Make the notification visible when the active class is added.
