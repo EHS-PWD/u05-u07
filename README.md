@@ -52,16 +52,16 @@ Students will learn how to create a **horizontal navigation menu** using the `di
     - Removes the default bullet points from the list.
     - Removes default padding around the `<ul>`.
     - Centers the navigation items horizontally.
-<br>
+
 - Create another rule set that selects the `nav ul li` that has the following declarations:
     - Aligns the menu items horizontally instead of stacking them.
     - Adds space between each navigation link (15px on both sides).
-<br>
+
 - Create another rule set that selects the `nav ul li a` that has the following declarations:
     - Removes the underline from links.
     - Sets the link color to #008080.
     - Makes the text bold for better readability.
-<br>
+ 
 - Create the last rule set that selects the `nav ul li a:hover` that has the following declarations:
     - Changes the link color to #006400 when hovered over.
 
